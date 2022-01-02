@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+.loginarea {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -150px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #999;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.loginarea input[type=email],
+.loginarea input[type=password] {
+    width: 95%;
+    height: 40px;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.login {
+    width: 100px;
+    height: 40px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: #fff;
+}
+.warning {
+    border: 2px solid #FF0000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    margin-top: 20px;
+}
